@@ -5,9 +5,11 @@
     text-decoration: none;
     transition: 0.5s;
     cursor: pointer;
+    border-radius: 8px;
     border: none;
 }
 
 .btn:hover {
     color: #ffbb33;
+    transform: scale(1.01);
 }

@@ -3,17 +3,22 @@ import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
 import styles from './Footer.module.css'
 
 function Footer() {
+
+    function novaAba(url) {
+        window.open(url, '_blank')
+    }
+
     return (
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    <FaInstagram />
+                    <FaInstagram onClick={() => novaAba('https://instagram.com')}/>
                 </li>
                 <li>
-                    <FaGithub />
+                    <FaGithub onClick={() => novaAba('https://github.com/Driinho')}/>
                 </li>
                 <li>
-                    <FaLinkedin />
+                    <FaLinkedin onClick={() => novaAba('https://www.linkedin.com/in/pedro-nascimento-4906b5217/')}/>
                 </li>
             </ul>
             <p className={styles.copy_right}>
