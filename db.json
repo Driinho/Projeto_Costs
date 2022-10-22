@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "Projeto 2",
-      "budget": "5000",
+      "name": "Projeto de Design",
+      "budget": "1500",
       "category": {
         "id": "3",
         "name": "Design"
