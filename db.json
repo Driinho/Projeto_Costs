@@ -18,21 +18,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 2500,
-      "services": [
-        {
-          "name": "Contratar programador",
-          "cost": "1500",
-          "description": "Desenvolvedor para implementar as funcionalidades.",
-          "id": "a19e1738-66b6-4886-aefe-ff6bfd50a53e"
-        },
-        {
-          "name": "Dev React",
-          "cost": "1000",
-          "description": "Desenvolver funcionalidades",
-          "id": "a160c63a-75ab-4f63-98d7-26aced1b401d"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 2
     }
   ],
