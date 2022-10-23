@@ -12,19 +12,25 @@
       "id": 1
     },
     {
-      "name": "Projeto de Design",
-      "budget": "1500",
+      "name": "Desenvolver um site",
+      "budget": "10000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 200,
+      "cost": 2500,
       "services": [
         {
-          "name": "Primeiro serviço",
-          "cost": "200",
-          "description": "Teste",
-          "id": "2a89f57d-dc6e-48e4-9601-8ab9170da7e7"
+          "name": "Contratar programador",
+          "cost": "1500",
+          "description": "Desenvolvedor para implementar as funcionalidades.",
+          "id": "a19e1738-66b6-4886-aefe-ff6bfd50a53e"
+        },
+        {
+          "name": "Dev React",
+          "cost": "1000",
+          "description": "Desenvolver funcionalidades",
+          "id": "a160c63a-75ab-4f63-98d7-26aced1b401d"
         }
       ],
       "id": 2
