@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "1000",
+          "description": "serviço 1",
+          "id": "3b15f2bf-4acd-4274-8db7-379020b0a2de"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,8 +25,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "1000",
+          "description": "Teste",
+          "id": "8254118c-46de-41fd-a38c-ebf5918c7bc6"
+        }
+      ],
       "id": 2
     }
   ],

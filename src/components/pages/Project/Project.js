@@ -1,7 +1,8 @@
 import { parse, v4 as uuidv4 } from 'uuid'
 
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import { BsArrowLeftShort } from 'react-icons/bs'
 
 import Loading from '../../layout/Loading/Loading'
 import Container from '../../layout/Container/Container'
@@ -9,6 +10,7 @@ import ProjectForm from '../../project/ProjectForm'
 import Message from '../../layout/Message/Message'
 import ServiceForm from '../Service/ServiceForm'
 import ServiceCard from '../Service/ServiceCard'
+import LinkButton from '../../layout/LinkButton/LinkButton'
 
 import styles from './Project.module.css'
 
@@ -148,6 +150,9 @@ function Project() {
         <>
             {project.name ? (
                 <div className={styles.project_details}>
+                    <div className={styles.btn_voltar}>
+                        <LinkButton to="/projects" text={<BsArrowLeftShort />}/>
+                    </div>
                     <Container customClass="column">
                         {message && <Message type={type} msg={message} />}
                         <div className={styles.details_container}>

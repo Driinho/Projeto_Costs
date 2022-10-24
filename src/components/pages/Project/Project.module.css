@@ -49,3 +49,8 @@
 .project_info {
     width: 100%;
 }
+
+.btn_voltar {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
